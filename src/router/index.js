@@ -57,6 +57,12 @@ const router = createRouter({
           component: () =>
             import(/* webpackChunkName: "tema5" */ '../views/Tema5.vue'),
         },
+        {
+          path: 'tema6',
+          name: 'tema6',
+          component: () =>
+            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
+        },
       ],
     },
     {

@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos de identificación y preparación de mercancías.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la apropiación de los conceptos de identificación y preparación de mercancías',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,400 +30,656 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué se entiende por mercancía dentro de una operación logística?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Recurso financiero.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Bien o producto susceptible de almacenamiento, transporte y comercialización.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Documento administrativo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Medio de transporte.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Correcto! La mercancía corresponde a cualquier bien o producto que puede ser almacenado, transportado y comercializado.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de las siguientes corresponde a una mercancía perecedera?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Cemento.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Televisor.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Frutas frescas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Tornillos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Las frutas frescas tienen una vida útil limitada y requieren condiciones especiales de conservación.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál de las siguientes es una característica de la mercancía?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Peso.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Nómina.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Organigrama.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Presupuesto.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El peso es una característica fundamental para la manipulación y transporte de mercancías.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Qué aspecto determina la naturaleza de la carga?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las vacaciones del personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La estructura organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El plan de mercadeo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Las condiciones de manipulación, almacenamiento y transporte.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La naturaleza de la carga determina los requerimientos para su manejo seguro.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto: '¿Cuál es la función principal del empaque?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Registrar inventarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Proteger y contener directamente el producto.',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Elaborar facturas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Gestionar compras.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El empaque protege y conserva el producto durante su almacenamiento y comercialización.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué función cumple el embalaje?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Agrupar y proteger mercancías durante el transporte.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Elaborar pedidos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Gestionar inventarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Controlar nómina.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El embalaje protege la mercancía durante el transporte y almacenamiento.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué información puede encontrarse en un rotulado logístico?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Salario del operario.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Fecha de vacaciones.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto: 'Nombre del producto y código de identificación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Organigrama empresarial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El rotulado facilita la identificación y trazabilidad de las mercancías.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué indica el símbolo pictórico de una copa rota?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Material inflamable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mantener congelado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Uso exclusivo interno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Producto frágil.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Este símbolo indica que la mercancía requiere manipulación cuidadosa.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto: '¿Qué representa la densidad de una carga?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Costo del transporte.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Relación entre peso y volumen.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Valor comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tiempo de entrega.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La densidad permite optimizar almacenamiento y transporte.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto: '¿Cuál es una técnica de arrume utilizada en almacenamiento?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Arrume cruzado.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Arrume financiero.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Arrume contable.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Arrume administrativo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El arrume cruzado mejora la estabilidad de las mercancías.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué significa el método <em>FIFO</em>?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Primero en vencer, primero en salir.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Último en entrar, primero en salir.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Último en vencer, último en salir.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Primero en entrar, primero en salir.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El método <em>FIFO</em> facilita la adecuada rotación de mercancías.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál de los siguientes equipos se utiliza para el movimiento de cargas?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Impresora.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Escáner.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Montacargas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Archivador.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El montacargas permite movilizar mercancías de forma segura y eficiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué objetivo tiene el almacenamiento dentro de la logística?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Realizar campañas publicitarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Conservar y controlar mercancías hasta su utilización o despacho.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Contratar personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elaborar presupuestos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El almacenamiento garantiza la disponibilidad y conservación de los productos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 14,
+          texto: '¿Cuál es un tipo de almacenamiento utilizado en logística?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Refrigerado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Financiero.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Jurídico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Comercial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El almacenamiento refrigerado se utiliza para productos que requieren control de temperatura.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 15,
+          texto:
+            '¿Qué actividad forma parte de los procedimientos de almacenamiento?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Elaboración de contratos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diseño publicitario.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Gestión tributaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Recepción e inspección de mercancías.',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La recepción e inspección son actividades fundamentales del almacenamiento.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 13,
+          id: 16,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Cuál es una herramienta de comunicación utilizada en logística?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Estantería.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Montacargas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Correo electrónico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Embalaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El correo electrónico facilita el intercambio de información logística.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué técnica favorece una comunicación efectiva en las operaciones logísticas?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Escucha activa.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Improvisación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Suposición.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Omisión de información.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La escucha activa favorece la comprensión y coordinación de actividades.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 14,
+          id: 18,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué actividad hace parte de la preparación de mercancías para despacho?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseño organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Alistamiento de mercancías.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Elaboración de nómina.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Contratación de personal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El alistamiento garantiza que la mercancía cumpla las condiciones requeridas para el despacho.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué criterio puede utilizarse para clasificar mercancías antes del despacho?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Salario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cargo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Organigrama.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Destino.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El destino es uno de los criterios más utilizados para clasificar mercancías.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es una variable de entrega que debe considerarse antes del despacho?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Color corporativo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Diseño de oficinas.',
+              esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Tiempo de entrega.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Número de empleados.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El tiempo de entrega es una variable clave para garantizar el cumplimiento de los compromisos con el cliente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
