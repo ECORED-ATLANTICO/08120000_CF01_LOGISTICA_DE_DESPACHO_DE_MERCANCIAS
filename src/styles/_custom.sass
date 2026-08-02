@@ -69,14 +69,54 @@ figcaption, table caption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/common/bg1.png)
+  &-slider
+    background-image: url(../assets/curso/common/bg-slider.png)
+    background-size: cover
 .bg-color
   &-1
+    background-color: #E5F0FC !important
+  &-2
+    background-color: #EAECF0
+  &-3
     background-color: #FCF9EB !important
+  &-4
+    background-color: #FFE6D9 !important
+  &-5
+    background-color: #FCF9EB
+    inline-size: fit-content
+    margin: auto
+  &-6
+    background-color: #F6F6F6
+  &-7
+    background-color: #E6EAE9
+  &-8
+    background-color: #FDF7E4
+  &-white
+    background-color: white
 
 
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+.banner-text
+  background: linear-gradient(180deg,rgba(222, 222, 222, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(222, 222, 222, 1) 100%);
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+  @media screen and (max-width: $bp-max-sm)
+    margin-top: -10px
 
 
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #F4E9B7
+  border: #F4E9B7
+.slyder-a__bullets__item--active
+  background-color: #E0BF32
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
 
 
 
