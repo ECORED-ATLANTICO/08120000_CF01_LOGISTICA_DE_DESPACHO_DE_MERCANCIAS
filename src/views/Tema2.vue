@@ -143,8 +143,8 @@
             .titulo-sexto.color-acento-contenido.mb-4
               h5 Figura 1.
               span Ejemplo de rotulado de mercancía
-            img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/14.png", alt="TEXTOALT")
-            img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/14-1.png", alt="TEXTOALT")
+            img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/14.png", alt="La figura muestra caja de cartón ubicada sobre una estiba en una bodega de almacenamiento. La mercancía presenta un rótulo con la información necesaria para su identificación, control y manipulación, además de pictogramas de seguridad que orientan su manejo durante las actividades de almacenamiento, preparación y despacho logístico.")
+            img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/14-1.png", alt="La figura muestra caja de cartón ubicada sobre una estiba en una bodega de almacenamiento. La mercancía presenta un rótulo con la información necesaria para su identificación, control y manipulación, además de pictogramas de seguridad que orientan su manejo durante las actividades de almacenamiento, preparación y despacho logístico.")
             figcaption Nota. SENA, (2026).
         
     .row.justify-content-center

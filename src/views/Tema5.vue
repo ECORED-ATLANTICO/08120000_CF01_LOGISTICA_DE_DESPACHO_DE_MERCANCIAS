@@ -200,7 +200,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 3.
+          h5 Figura 2.
           span Trazabilidad de entrega de mercancía
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/20.png", alt="La figura muestra la trazabilidad del despacho de una mercancía mediante una línea de tiempo con las principales etapas del proceso logístico: recepción en terminal de origen, transporte, llegada a terminal de destino, reparto y entrega final. También muestra el historial cronológico de cada evento con fechas y horas, evidenciando el seguimiento continuo del pedido y el control de su estado durante toda la operación logística. ")
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/20-1.png", alt="La figura muestra la trazabilidad del despacho de una mercancía mediante una línea de tiempo con las principales etapas del proceso logístico: recepción en terminal de origen, transporte, llegada a terminal de destino, reparto y entrega final. También muestra el historial cronológico de cada evento con fechas y horas, evidenciando el seguimiento continuo del pedido y el control de su estado durante toda la operación logística. ")

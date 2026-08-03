@@ -179,7 +179,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 4.
+          h5 Figura 3.
           span Secuencia de alistamiento de mercancía
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema6/13.png", alt="La figura presenta la secuencia del alistamiento de la mercancía para su despacho en una bodega. El proceso incluye la verificación de pedidos, revisión de cantidades, empaque y embalaje, rotulado, organización para cargue, confirmación de documentos y despacho. Cada etapa se muestra con personal realizando la actividad correspondiente, destacando el flujo ordenado de las operaciones logísticas hasta la salida de la mercancía hacia su destino.")
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema6/13-1.png", alt="La figura presenta la secuencia del alistamiento de la mercancía para su despacho en una bodega. El proceso incluye la verificación de pedidos, revisión de cantidades, empaque y embalaje, rotulado, organización para cargue, confirmación de documentos y despacho. Cada etapa se muestra con personal realizando la actividad correspondiente, destacando el flujo ordenado de las operaciones logísticas hasta la salida de la mercancía hacia su destino.")
