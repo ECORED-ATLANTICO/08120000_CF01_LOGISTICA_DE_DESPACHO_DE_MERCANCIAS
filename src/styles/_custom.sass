@@ -70,6 +70,8 @@ figcaption, table caption
 .bg-fondo
   &-1
     background-image: url(../assets/curso/common/bg1.png)
+  &-2
+    background-image: url(../assets/curso/common/bg2.png)
   &-slider
     background-image: url(../assets/curso/common/bg-slider.png)
     background-size: cover
@@ -92,6 +94,20 @@ figcaption, table caption
     background-color: #E6EAE9
   &-8
     background-color: #FDF7E4
+  &-9
+    background-color: #D4D9E0
+  &-10
+    background-color: #F9F2D6
+  &-11
+    background-color: #CAE1F9
+    inline-size: fit-content
+    margin: auto
+  &-12
+    background-color: #F2E5AD
+    inline-size: fit-content
+    margin: auto
+  &-13
+    background-color: #CAE1F9
   &-white
     background-color: white
 
@@ -118,8 +134,82 @@ figcaption, table caption
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
   background-color: $color-acento-botones
 
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: $color-acento-botones !important
+  color: $color-sistema-texto
+.acordion__activo
+  background-color: #FEECE6 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
 
+//////// Card hover ////////////
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #FE8849
+      h4
+        color: $color-sistema-texto
 
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FFCEB4
+    text-align: center
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FE8849
+  color: $color-sistema-texto
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #FE8849
+.tabs-a__tab
+  background-color: #D4D9E0
+.tarjeta.color-acento-botones--borde
+  background-color: #D4D9E0
+  border: solid 4px #D4D9E0
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus 
+    background-color: #FE8849
+    color: $color-sistema-texto
+
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
+.tabs-a
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 40%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
