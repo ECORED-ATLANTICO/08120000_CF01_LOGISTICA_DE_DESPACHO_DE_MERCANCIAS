@@ -116,7 +116,7 @@
                 figure
                   img(src="@/assets/curso/tema5/14.png")
                 p.mb-0 Plataformas digitales que permiten intercambiar mensajes, imágenes, documentos y ubicaciones en tiempo real, favoreciendo la coordinación ágil entre los actores de la operación logística.
-              .tarjeta.color-acento-botones--borde.bg-fondo-2.p-3.p-lg-5(titulo="Bandas Sistemas de información")
+              .tarjeta.color-acento-botones--borde.bg-fondo-2.p-3.p-lg-5(titulo="Sistemas de información")
                 figure
                   img(src="@/assets/curso/tema5/15.png")
                 p.mb-0 Aplicaciones informáticas que integran, registran y gestionan datos relacionados con inventarios, pedidos, despachos y trazabilidad, apoyando la toma de decisiones logísticas.
@@ -180,7 +180,7 @@
               tr.bg-color-white
                 td.text-bold TMS (<em>Transportation Management System</em>)
                 td Plataforma que planifica, controla y monitorea el transporte de mercancías, optimizando rutas, tiempos de entrega y costos operativos.
-                td SAP TM, <em>Oracle Transportation Management</em>
+                td SAP TM, Oracle Transportation Management
               tr.bg-color-sintesis
                 td.text-bold ERP (<em>Enterprise Resource Planning</em>)
                 td Sistema que integra los procesos administrativos, comerciales y logísticos, facilitando la gestión de inventarios, pedidos y despachos desde una única plataforma.
@@ -192,7 +192,7 @@
               tr.bg-color-sintesis
                 td.text-bold Aplicaciones de prueba de entrega (POD)
                 td Soluciones móviles que registran la entrega mediante firma, fotografía o geolocalización, proporcionando evidencia digital y trazabilidad del despacho.
-                td <em>DispatchTrack</em>, Track-POD  
+                td DispatchTrack, Track-POD  
     
     .cajon.color-acento-contenido.bg-color-3.p-4.mb-5
       p.mb-0 La información oportuna permite tomar decisiones rápidas y mejorar el desempeño de las operaciones. En la siguiente figura, se muestra un ejemplo de la trazabilidad a la entrega de una mercancía por medio de una aplicación de logística:
@@ -314,14 +314,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

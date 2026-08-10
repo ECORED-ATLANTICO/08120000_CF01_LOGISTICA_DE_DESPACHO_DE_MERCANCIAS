@@ -53,27 +53,27 @@
                   tr.bg-color-sintesis
                     td.text-bold Manipular la mercancía según sus características
                     td Adapta las técnicas de manipulación al tipo de mercancía, considerando su peso, fragilidad, dimensiones y condiciones de conservación para evitar daños y garantizar un manejo seguro.
-                    td Transportar productos frágiles con mayor precaución
+                    td Transportar productos frágiles con mayor precaución.
                   tr.bg-color-white
                     td.text-bold Utilizar elementos de protección personal
                     td Emplea los elementos de protección personal requeridos para disminuir los riesgos laborales y proteger al trabajador durante las operaciones logísticas.
-                    td Usar casco, guantes y botas de seguridad
+                    td Usar casco, guantes y botas de seguridad.
                   tr.bg-color-sintesis
                     td.text-bold Evitar golpes y caídas
                     td Manipula y moviliza la mercancía con cuidado para prevenir impactos, caídas o movimientos bruscos que puedan afectar su integridad o funcionamiento.
-                    td Bajar una caja lentamente desde una estantería
+                    td Bajar una caja lentamente desde una estantería.
                   tr.bg-color-white
                     td.text-bold Respetar los límites de carga
                     td Cumple la capacidad máxima de equipos, estanterías y ayudas mecánicas para preservar la estabilidad de la carga y prevenir accidentes.
-                    td No exceder la capacidad de un montacargas
+                    td No exceder la capacidad de un montacargas.
                   tr.bg-color-sintesis
                     td.text-bold Mantener áreas de trabajo limpias y organizadas
                     td Conserva los espacios libres de obstáculos, residuos y materiales innecesarios para facilitar la circulación y desarrollar operaciones seguras y eficientes.
-                    td Mantener despejados los pasillos de la bodega
+                    td Mantener despejados los pasillos de la bodega.
                   tr.bg-color-white
                     td.text-bold Aplicar protocolos de seguridad
                     td Ejecuta los procedimientos de seguridad establecidos por la organización para prevenir incidentes y responder adecuadamente ante situaciones de riesgo durante las operaciones logísticas.
-                    td Seguir el procedimiento establecido para atender un derrame
+                    td Seguir el procedimiento establecido para atender un derrame.
 
         .row.justify-content-center
           .col-lg-8
@@ -132,7 +132,7 @@
                 .col-lg-8.mb-4.mb-md-0
                   h4 Cliente
                   p Identifica las mercancías según el cliente o destinatario para garantizar la correcta preparación, verificación y entrega de cada pedido.
-                  p.mb-0 <b>Ejemplo</b>: reunir los pedidos de un supermercado
+                  p.mb-0 <b>Ejemplo</b>: reunir los pedidos de un supermercado.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
@@ -197,7 +197,7 @@
         #t_6_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 6.4 Variables de entrega
         
-        .row.align-items-center
+        .row.align-items-center.mb-5
           .col-lg-auto.mb-lg-0
             img.d-none.d-lg-flex(src="@/assets/curso/tema6/14.svg").mx-auto
           .col-lg
@@ -258,7 +258,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4 Módulo 3 - Procesos Logísticos En La Recepción, Almacenamiento Y Despacho De Mercancías
+                  h4 Módulo 3 - Procesos logísticos en la Recepción, almacenamiento y despacho de mercancías
                   p.mb-0 A continuación, se invita al siguiente video para fortalecer los conocimientos relacionados con preparación de mercancías para despacho:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=78Wm3RHqXIg" target="_blank")
@@ -307,14 +307,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

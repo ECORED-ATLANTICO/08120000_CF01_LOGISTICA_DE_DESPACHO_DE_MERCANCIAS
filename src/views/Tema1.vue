@@ -121,7 +121,7 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fa.solid.fa-circle-check
-                p.mb-0 <b>Ejemplo</b>: frutas frescas, productos lácteos.
+                p.mb-0 <b>Ejemplo</b>: joyas, teléfonos celulares.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
               img(src='@/assets/curso/tema1/10.png', alt='Imagen de acompañamiento')
@@ -359,7 +359,7 @@
             figure
               img(src="@/assets/curso/common/3.svg", data-aos="zoom-in")
           .col-lg-7
-            h2(data-aos="fade-left").mb-4 A continuación, se invita al siguiente podcast: 
+            h2(data-aos="fade-left").mb-4 A continuación, se invita al siguiente pódcast: 
             
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
               texto="La mercancía correcta, el despacho correcto: claves para una operación logística eficiente"
@@ -375,14 +375,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

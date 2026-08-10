@@ -226,7 +226,7 @@
                 p.ms-lg-5 <b>Ejemplo</b>: utilizar casco, guantes, botas de seguridad y chaleco reflectivo durante la operación logística. 
               div(titulo="Señalización de áreas de almacenamiento")
                 p.ms-lg-5 Identifica zonas de circulación, almacenamiento, riesgo y evacuación mediante señales visibles que orientan las operaciones y fortalecen la seguridad dentro de la bodega.
-                p.ms-lg-5 Ejemplo: delimitar con señalización los pasillos peatonales y las rutas de montacargas.
+                p.ms-lg-5 <b>Ejemplo</b>: delimitar con señalización los pasillos peatonales y las rutas de montacargas.
               div(titulo="Control de cargas máximas permitidas")
                 p.ms-lg-5 Establece los límites de peso que pueden soportar estanterías, estibas y equipos de movilización para prevenir sobrecargas, deformaciones y accidentes.
                 p.ms-lg-5 <b>Ejemplo</b>: respetar la capacidad máxima indicada en una estantería metálica o en un montacargas.
@@ -295,14 +295,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

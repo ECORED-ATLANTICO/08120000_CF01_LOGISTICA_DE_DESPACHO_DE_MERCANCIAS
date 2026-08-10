@@ -136,6 +136,7 @@
         
         .row.justify-content-center
           .col-lg-10
+            p Las técnicas más utilizadas son:
             .titulo-sexto.color-acento-contenido
               h5 Tabla 1.
               span Técnicas de rotación de inventario
@@ -149,26 +150,38 @@
                     th Ejemplos
                 tbody
                   tr.bg-color-sintesis
-                    td.text-bold FIFO (First in, first out)<br>Primero en entrar, primero en salir
+                    td.text-bold FIFO (<em>First in, first out</em>)<br>Primero en entrar, primero en salir
                     td Establece que las mercancías que ingresan primero al almacén son las primeras en despacharse. Este método favorece la rotación continua del inventario, reduce el riesgo de deterioro y preserva la calidad de los productos almacenados.
                     td
-                      ul.lista-ul.mb-0
-                        li Leche y productos lácteos
-                        li Bebidas embotelladas
+                      ul.lista-ul--color.ms-3
+                        li.mb-3.d-flex
+                          i.fas.fa-circle.fa-xs.mt-1.bg-color-14
+                          | Leche y productos lácteos
+                        li.mb-3.d-flex
+                          i.fas.fa-circle.fa-xs.mt-1.bg-color-14
+                          | Bebidas embotelladas
                   tr.bg-color-white
-                    td.text-bold FEFO (First expired, first out)<br>Primero en vencer, primero en salir
+                    td.text-bold FEFO (<em>First expired, first out</em>)<br>Primero en vencer, primero en salir
                     td Prioriza la salida de las mercancías con la fecha de vencimiento más próxima, independientemente de su ingreso al almacén. Este método evita pérdidas por caducidad y garantiza una adecuada gestión de productos con vida útil limitada.
                     td
-                      ul.lista-ul.mb-0
-                        li Medicamentos
-                        li Yogures y alimentos refrigerados
+                      ul.lista-ul--color.ms-3
+                        li.mb-3.d-flex
+                          i.fas.fa-circle.fa-xs.mt-1.bg-color-14
+                          | Medicamentos
+                        li.mb-3.d-flex
+                          i.fas.fa-circle.fa-xs.mt-1.bg-color-14
+                          | Yogures y alimentos refrigerados
                   tr.bg-color-sintesis
-                    td.text-bold LIFO (Last in, first out)<br>Último en entrar, primero en salir
+                    td.text-bold LIFO (<em>Last in, first out</em>)<br>Último en entrar, primero en salir
                     td Determina que las mercancías de ingreso más reciente sean las primeras en despacharse. Se aplica principalmente a productos sin fecha de vencimiento, cuando las condiciones de almacenamiento permiten este sistema de rotación.
                     td
-                      ul.lista-ul.mb-0
-                        li Arena para construcción
-                        li Carbón mineral almacenado a granel
+                      ul.lista-ul--color.ms-3
+                        li.mb-3.d-flex
+                          i.fas.fa-circle.fa-xs.mt-1.bg-color-14
+                          | Arena para construcción
+                        li.mb-3.d-flex
+                          i.fas.fa-circle.fa-xs.mt-1.bg-color-14
+                          | Carbón mineral almacenado a granel
             
         .row.justify-content-center
           .col-lg-8
@@ -206,8 +219,12 @@
     
     .bg-full-width.bg-fondo-1
       .px-5
-        .cajon.color-acento-contenido.bg-color-3.p-4.mb-5
-          p.mb-0 Estas actividades pueden realizarse de manera manual o mediante equipos especializados, entre los cuales tenemos los siguientes, Algunos equipos utilizados son:
+        .row.justify-content-center
+          .col-lg-10
+            .cajon.color-acento-contenido.bg-color-3.p-4.mb-5
+              p.mb-0.text-center Estas actividades pueden realizarse de manera manual o mediante equipos especializados, entre los cuales tenemos los siguientes:
+        
+        p.mb-5 Algunos equipos utilizados son:
         
         .row.mb-5.justify-content-center.align-items-center
           .col-md-8.col-lg-3.mb-3.mb-lg-0
@@ -280,14 +297,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 
