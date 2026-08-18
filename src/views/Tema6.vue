@@ -294,7 +294,7 @@
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
               texto="Del alistamiento al despacho: preparación de mercancías para cumplir con el cliente"
               tiempo
-              :audio="require_src('../assets/curso/podcast/podcast1.mp3')"
+              :audio="require_src('../assets/curso/podcast/podcast2.mp3')"
             )
 
 
