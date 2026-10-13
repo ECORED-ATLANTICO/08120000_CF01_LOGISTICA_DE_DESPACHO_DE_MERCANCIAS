@@ -46,7 +46,7 @@
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.2 Tipos de mercancía
         
-    img(src="@/assets/curso/tema1/4.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema1/4.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")
@@ -64,7 +64,7 @@
                 p.mb-0 <b>Ejemplo</b>: frutas frescas, productos lácteos.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/5.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/5.png', alt='')
       .p-3.p-md-4(titulo="Mercancía no perecedera")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -76,7 +76,7 @@
                 p.mb-0 <b>Ejemplo</b>: arroz, productos de aseo.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/6.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/6.png', alt='')
       .p-3.p-md-4(titulo="Mercancía frágil")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -88,7 +88,7 @@
                 p.mb-0 <b>Ejemplo</b>: cristalería, televisores.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/7.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/7.png', alt='')
       .p-3.p-md-4(titulo="Mercancía peligrosa")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -100,7 +100,7 @@
                 p.mb-0 <b>Ejemplo</b>: pinturas inflamables, cilindros de gas.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/8.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/8.png', alt='')
       .p-3.p-md-4(titulo="Mercancía refrigerada")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -112,7 +112,7 @@
                 p.mb-0 <b>Ejemplo</b>: carne refrigerada, vacunas.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/9.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/9.png', alt='')
       .p-3.p-md-4(titulo="Mercancía de alto valor")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -124,7 +124,7 @@
                 p.mb-0 <b>Ejemplo</b>: joyas, teléfonos celulares.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/10.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/10.png', alt='')
       .p-3.p-md-4(titulo="Mercancía a granel")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -136,7 +136,7 @@
                 p.mb-0 <b>Ejemplo</b>: cemento, maíz.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/11.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/11.png', alt='')
       .p-3.p-md-4(titulo="Mercancía contenerizada")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -148,7 +148,7 @@
                 p.mb-0 <b>Ejemplo</b>: electrodomésticos en contenedor, prendas de vestir para exportación.
           .col-lg-4.mb-3.mb-lg-0.order-1
             figure
-              img(src='@/assets/curso/tema1/12.png', alt='Imagen de acompañamiento')
+              img(src='@/assets/curso/tema1/12.png', alt='')
 
     .cajon.color-acento-contenido.bg-color-3.p-4.mb-5
       p.mb-0 La clasificación adecuada permite establecer procedimientos específicos de almacenamiento, manipulación y despacho, garantizando la integridad del producto y la seguridad de la operación.
@@ -186,40 +186,40 @@
           .col-lg-8.order-lg-2
             SlyderF(columnas="col-12 col-lg-6").p-4
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/16.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/16.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Peso
                 p.text-center Corresponde a la masa de la mercancía y determina los equipos, ayudas mecánicas y métodos de manipulación necesarios para realizar el cargue, almacenamiento y despacho de forma segura, evitando sobrecargas y reduciendo el riesgo de accidentes.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/17.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/17.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Volumen
                 p.text-center Hace referencia al espacio físico que ocupa la mercancía. Esta característica facilita la planificación del almacenamiento, la distribución de las cargas y el aprovechamiento eficiente de la capacidad disponible en estanterías, vehículos y unidades de transporte.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/18.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Dimensiones
                 p.text-center Son  las medidas de largo, ancho y alto de la mercancía o de su embalaje. Su identificación permite seleccionar el espacio adecuado, optimizar la ubicación de los productos y prevenir dificultades durante la manipulación y el transporte.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/19.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/19.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Fragilidad
                 p.text-center Indica el grado de sensibilidad de la mercancía frente a golpes, vibraciones, caídas o presión. Su identificación permite aplicar medidas de protección, utilizar embalajes adecuados y realizar una manipulación cuidadosa durante toda la operación logística.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/20.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Valor comercial
                 p.text-center Representa la importancia económica de la mercancía para la organización. Los productos de mayor valor requieren controles adicionales de seguridad, trazabilidad, almacenamiento restringido y procedimientos específicos que reduzcan el riesgo de pérdidas o hurtos.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/21.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Condiciones de conservación
                 p.text-center Pertenecen a los requisitos ambientales necesarios para mantener la calidad e integridad de la mercancía, como temperatura, humedad, ventilación, iluminación o protección contra contaminantes durante el almacenamiento y el transporte.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/22.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Nivel de riesgo
                 p.text-center Identifica los posibles peligros asociados con la manipulación, almacenamiento o transporte de la mercancía. Esta característica permite establecer medidas preventivas, elementos de protección y protocolos que garanticen la seguridad de las personas, las instalaciones y el ambiente.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema1/23.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/23.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Vida útil
                 p.text-center Es el periodo durante el cual la mercancía conserva sus condiciones de calidad y funcionalidad. Su control facilita la rotación adecuada de inventarios y evita pérdidas ocasionadas por vencimiento, deterioro u obsolescencia de los productos.
           .col-md-8.col-lg-4.order-lg-1
             figure
-              img(src='@/assets/curso/tema1/15.png', alt='Descripción de la imagen')
+              img(src='@/assets/curso/tema1/15.png', alt='')
     
         .cajon.color-acento-contenido.bg-color-3.p-4.mb-5
           p.mb-0 El análisis de estas variables permite seleccionar adecuadamente equipos, métodos de almacenamiento, materiales de empaque y medios de transporte.
@@ -242,7 +242,7 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Naturaleza de la carga
 
-    img(src="@/assets/curso/tema1/25.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema1/25.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")
@@ -261,42 +261,42 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/26.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema1/26.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Control de temperatura
                   p.mb-0 Algunas mercancías requieren mantenerse dentro de rangos específicos de temperatura para conservar sus propiedades físicas, químicas o biológicas. El control permanente evita alteraciones en la calidad del producto y garantiza que llegue al destino en condiciones óptimas.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/27.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema1/27.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Protección contra humedad
                   p.mb-0 Determinadas mercancías son sensibles a la humedad, ya que esta puede ocasionar corrosión, deformación, deterioro o pérdida de calidad. Por ello, deben almacenarse y transportarse en ambientes secos o con sistemas que controlen las condiciones ambientales.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/28.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema1/28.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Manipulación especializada
                   p.mb-0 Existen mercancías que, por sus características, requieren procedimientos específicos durante el cargue, descargue, almacenamiento y preparación. Su manipulación debe realizarse por personal capacitado, aplicando técnicas que prevengan daños al producto y reduzcan riesgos operativos.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/29.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema1/29.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Equipos específicos de movilización
                   p.mb-0 El peso, las dimensiones, la forma o la naturaleza de algunas mercancías hacen necesario utilizar equipos especializados para su desplazamiento. Entre ellos se encuentran montacargas, transpaletas, grúas, bandas transportadoras u otros dispositivos que facilitan una manipulación segura y eficiente.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/30.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema1/30.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Medidas de seguridad especiales
                   p.mb-0 Algunas mercancías representan riesgos para las personas, las instalaciones o el ambiente, o poseen un alto valor comercial. En estos casos, es necesario implementar controles específicos, señalización, elementos de protección, restricciones de acceso y procedimientos que minimicen los riesgos durante la operación logística.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/31.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema1/31.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Condiciones particulares de almacenamiento
                   p.mb-0 Según su naturaleza, ciertas mercancías requieren condiciones específicas de almacenamiento relacionadas con la temperatura, la ventilación, la iluminación, la humedad, el tipo de estantería o la segregación de productos. Estas medidas contribuyen a preservar su calidad, facilitar su conservación y garantizar una operación logística segura.

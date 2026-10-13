@@ -9,7 +9,7 @@
 
     .bg-full-width.bg-fondo-1
       .px-5
-        img(src="@/assets/curso/tema2/1.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema2/1.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -38,42 +38,42 @@
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-4.mb-3.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema2/4.png', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema2/4.png', alt='')
                     .col-lg-8.mb-4.mb-md-0
                       h4 Cartón
                       p.mb-0 Material liviano y resistente utilizado para proteger, agrupar y transportar mercancías. Facilita el almacenamiento, el apilamiento y el reciclaje en las operaciones logísticas.
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-4.mb-3.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema2/7.png', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema2/7.png', alt='')
                     .col-lg-8.mb-4.mb-md-0
                       h4 Papel
                       p.mb-0 Material flexible empleado para envolver, separar o proteger productos livianos. También se utiliza como relleno para reducir movimientos y prevenir daños durante el transporte.
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-4.mb-3.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema2/5.png', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema2/5.png', alt='')
                     .col-lg-8.mb-4.mb-md-0
                       h4 Plástico
                       p.mb-0 Material versátil, resistente a la humedad y de bajo peso. Se utiliza en bolsas, películas, envases y envolturas para proteger mercancías durante el almacenamiento y el despacho.
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-4.mb-3.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema2/8.png', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema2/8.png', alt='')
                     .col-lg-8.mb-4.mb-md-0
                       h4 Vidrio
                       p.mb-0 Material rígido utilizado principalmente en envases para alimentos, bebidas y productos farmacéuticos. Requiere manipulación cuidadosa y protección adicional para evitar roturas durante la operación logística.
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-4.mb-3.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema2/6.png', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema2/6.png', alt='')
                     .col-lg-8.mb-4.mb-md-0
                       h4 Metal
                       p.mb-0 Material de alta resistencia empleado en latas, tambores y recipientes industriales. Protege eficazmente la mercancía frente a impactos, humedad y contaminación durante su almacenamiento y transporte.
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-4.mb-3.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema2/9.png', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema2/9.png', alt='')
                     .col-lg-8.mb-4.mb-md-0
                       h4 Materiales biodegradables
                       p.mb-0 Materiales elaborados con recursos naturales o renovables que se descomponen de forma natural. Constituyen una alternativa sostenible para reducir el impacto ambiental de los empaques logísticos.
@@ -132,7 +132,7 @@
 
     .bg-full-width.bg-fondo-1
       .px-5
-        img(src="@/assets/curso/tema2/13.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema2/13.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -170,40 +170,40 @@
           .col-lg-8.order-lg-2
             SlyderF(columnas="col-12 col-lg-6").p-4
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/17.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Frágil
                 p.text-center Indica que la mercancía puede dañarse fácilmente por golpes, caídas o presión. Debe manipularse con cuidado durante el almacenamiento, transporte y despacho.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/18.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Mantener seco
                 p.text-center Señala que la mercancía debe protegerse de la humedad y del contacto con agua para evitar deterioro, pérdida de calidad o daños en el producto.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/19.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Este lado arriba
                 p.text-center Muestra la posición correcta de la mercancía durante su manipulación, almacenamiento y transporte para evitar daños o alteraciones en su contenido.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/20.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 No apilar
                 p.text-center Advierte que no deben colocarse otras cargas sobre la mercancía, ya que el peso adicional puede ocasionar deformaciones, daños o pérdida de estabilidad.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/21.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Material inflamable 
                 p.text-center Identifica mercancías que pueden incendiarse fácilmente. Requieren mantenerse alejadas de fuentes de calor, chispas, llamas y materiales combustibles.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/22.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Material corrosivo
                 p.text-center Señala sustancias capaces de deteriorar materiales o causar lesiones por contacto. Su manipulación exige medidas de protección y almacenamiento especializado.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/23.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/23.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Proteger del calor
                 p.text-center Enseña que la mercancía debe mantenerse alejada de altas temperaturas o radiación solar para evitar alteraciones en sus propiedades o deterioro.
               .bg-color-6.tarjeta.p-4.h-100.box-shadow
-                img(src='@/assets/curso/tema2/24.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/24.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.bg-color-5.p-3.mb-4 Manipular con cuidado
                 p.text-center Advierte que la mercancía requiere una manipulación cuidadosa para prevenir golpes, caídas, vibraciones o cualquier acción que pueda afectar su integridad.
           .col-md-8.col-lg-4.order-lg-1
             figure
-              img(src='@/assets/curso/tema2/16.png', alt='Descripción de la imagen')
+              img(src='@/assets/curso/tema2/16.png', alt='')
 
         .row.justify-content-center
           .col-lg-8

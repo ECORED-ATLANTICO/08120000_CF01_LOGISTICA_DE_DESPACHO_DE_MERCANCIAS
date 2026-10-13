@@ -18,7 +18,7 @@
         p.mb-0(data-aos="fade-right") Su importancia radica en que facilita la aplicación de procedimientos orientados a preservar la calidad, seguridad e integridad de las mercancías durante las diferentes etapas de la operación logística. Asimismo, contribuye al cumplimiento de los requerimientos operativos y a la optimización de los recursos utilizados en la cadena de suministro.
     
     .cajon.color-acento-contenido.bg-color-1.p-4
-      p.mb-0 El tema se desarrollará de manera progresiva, iniciando con el análisis de las mercancías, sus características y naturaleza de la carga. Posteriormente, se abordarán aspectos relacionados con el empaque, embalaje, rotulado, almacenamiento y comunicación logística. Finalmente, se estudiarán las actividades de alistamiento y preparación para despacho, integrando criterios de calidad, seguridad y eficiencia operativa.
+      p.mb-0 El tema se desarrollará de manera progresiva, iniciando con el análisis de las mercancías, sus características y la naturaleza de la carga. Posteriormente, se abordarán aspectos relacionados con el empaque, embalaje, rotulado, almacenamiento y comunicación logística. Finalmente, se estudiarán las actividades de alistamiento y preparación para despacho, integrando criterios de calidad, seguridad y eficiencia operativa.
 
 
 </template>

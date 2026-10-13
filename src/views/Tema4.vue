@@ -21,7 +21,7 @@
         #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 4.1 Concepto
         
-        img(src="@/assets/curso/tema4/2.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema4/2.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -68,7 +68,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema4/6.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema4/6.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento convencional
                   p Organiza las mercancías en áreas de piso o estanterías de fácil acceso. Se caracteriza por su flexibilidad y por facilitar las operaciones de almacenamiento, control y despacho.
@@ -76,7 +76,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema4/7.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema4/7.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento en estanterías
                   p Ubica las mercancías en estructuras metálicas organizadas por niveles, optimizando el espacio disponible y facilitando el acceso, la clasificación y el control de inventarios.
@@ -84,7 +84,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema4/8.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema4/8.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento en bloque
                   p Agrupa las mercancías sobre el piso formando bloques compactos. Se utiliza cuando los productos son homogéneos, resistentes y presentan alta rotación.
@@ -92,7 +92,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema4/9.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema4/9.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento refrigerado
                   p Conserva las mercancías en cámaras o áreas con temperatura controlada para mantener sus condiciones de calidad durante el almacenamiento y la distribución.
@@ -100,7 +100,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema4/10.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema4/10.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento automatizado
                   p Emplea equipos y sistemas automatizados para almacenar y recuperar mercancías, incrementando la precisión, la trazabilidad y la eficiencia de las operaciones logísticas.
@@ -108,7 +108,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema4/11.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema4/11.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento temporal
                   p Mantiene las mercancías durante un periodo corto antes de su despacho, distribución o traslado, asegurando su disponibilidad dentro del flujo operativo.
@@ -207,7 +207,7 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.4 Normas de seguridad
     
-    img(src="@/assets/curso/tema4/15.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema4/15.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")

@@ -9,7 +9,7 @@
     
     .bg-full-width.bg-fondo-1
       .px-5
-        img(src="@/assets/curso/tema5/1.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema5/1.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -46,7 +46,7 @@
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-2.mb-3.mb-lg-0.order-2
                       figure
-                        img(src='@/assets/curso/tema5/5.svg', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema5/5.svg', alt='')
                     .col-lg-10.mb-4.mb-md-0.order-1
                       h4 Emisor
                       p Persona o área que genera y transmite la información necesaria para coordinar una actividad o proceso logístico de manera clara y oportuna.
@@ -54,7 +54,7 @@
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-2.mb-3.mb-lg-0.order-2
                       figure
-                        img(src='@/assets/curso/tema5/6.svg', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema5/6.svg', alt='')
                     .col-lg-10.mb-4.mb-md-0.order-1
                       h4 Receptor
                       p Persona o área que recibe, interpreta y utiliza la información para ejecutar una actividad dentro del proceso logístico.
@@ -62,7 +62,7 @@
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-2.mb-3.mb-lg-0.order-2
                       figure
-                        img(src='@/assets/curso/tema5/7.svg', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema5/7.svg', alt='')
                     .col-lg-10.mb-4.mb-md-0.order-1
                       h4 Mensaje
                       p Información que se transmite para comunicar instrucciones, datos o novedades relacionadas con la preparación, despacho o entrega de mercancías.
@@ -70,7 +70,7 @@
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-2.mb-3.mb-lg-0.order-2
                       figure
-                        img(src='@/assets/curso/tema5/8.svg', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema5/8.svg', alt='')
                     .col-lg-10.mb-4.mb-md-0.order-1
                       h4 Canal
                       p Medio utilizado para transmitir la información entre los participantes del proceso logístico, garantizando una comunicación efectiva y oportuna.
@@ -78,7 +78,7 @@
                   .row.justify-content-center.align-items-center.p-3.p-lg-4
                     .col-lg-2.mb-3.mb-lg-0.order-2
                       figure
-                        img(src='@/assets/curso/tema5/9.svg', alt='Imagen de acompañamiento')
+                        img(src='@/assets/curso/tema5/9.svg', alt='')
                     .col-lg-10.mb-4.mb-md-0.order-1
                       h4 Retroalimentación
                       p Respuesta del receptor que confirma la recepción, comprensión o ejecución de la información, permitiendo verificar que la comunicación fue efectiva.
@@ -213,7 +213,7 @@
     
     .bg-full-width.bg-fondo-1
       .px-5
-        img(src="@/assets/curso/tema5/21.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema5/21.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -225,7 +225,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema5/22.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema5/22.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Escucha activa
                   p Favorece la comprensión del mensaje mediante atención, concentración y verificación de la información recibida, reduciendo errores durante la coordinación de las operaciones logísticas.
@@ -233,7 +233,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema5/23.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema5/23.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Comunicación asertiva
                   p Transmite información de forma clara, respetuosa y objetiva, facilitando la coordinación de actividades y la solución de situaciones durante el despacho de mercancías.
@@ -241,7 +241,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema5/24.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema5/24.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Retroalimentación efectiva
                   p Permite confirmar la comprensión del mensaje mediante respuestas oportunas que aclaran dudas y verifican el cumplimiento de las instrucciones recibidas.
@@ -249,7 +249,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema5/25.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema5/25.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Confirmación de instrucciones
                   p Verifica que las indicaciones recibidas fueron comprendidas antes de ejecutar una actividad, disminuyendo errores durante las operaciones logísticas.
@@ -257,7 +257,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema5/26.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema5/26.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Registro de información
                   p Documenta datos relevantes de las operaciones logísticas para facilitar el seguimiento, la trazabilidad y la consulta de información durante el despacho de mercancías.
@@ -265,7 +265,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema5/27.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema5/27.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Comunicación escrita formal
                   p Utiliza documentos o medios digitales con lenguaje claro y estructurado para transmitir información oficial, garantizando su validez, consulta y trazabilidad.

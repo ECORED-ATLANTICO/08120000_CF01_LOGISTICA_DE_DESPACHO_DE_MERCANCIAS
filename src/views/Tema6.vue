@@ -100,7 +100,7 @@
     
     .bg-full-width.bg-fondo-1
       .px-5
-        img(src="@/assets/curso/tema6/5.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema6/5.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -112,7 +112,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema6/6.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema6/6.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Tipo de producto
                   p Diferencia las mercancías según su naturaleza, composición o categoría para facilitar su manipulación, almacenamiento y despacho, evitando incompatibilidades entre los productos.
@@ -120,7 +120,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema6/7.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema6/7.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Destino
                   p Distribuye las mercancías de acuerdo con la ciudad, región o punto de entrega, optimizando la preparación de pedidos y la planificación del despacho.
@@ -128,7 +128,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema6/8.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema6/8.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Cliente
                   p Identifica las mercancías según el cliente o destinatario para garantizar la correcta preparación, verificación y entrega de cada pedido.
@@ -136,7 +136,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema6/9.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema6/9.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Prioridad de entrega
                   p Ordena las mercancías según su nivel de urgencia o fecha programada de despacho, favoreciendo el cumplimiento de los tiempos de entrega establecidos.
@@ -144,7 +144,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema6/10.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema6/10.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Condiciones de almacenamiento
                   p Determina la ubicación de las mercancías considerando los requisitos de temperatura, humedad, ventilación o seguridad necesarios para conservar su calidad.
@@ -152,7 +152,7 @@
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema6/11.png', alt='Imagen de acompañamiento')
+                    img(src='@/assets/curso/tema6/11.png', alt='')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Características de la carga
                   p Establece la separación de las mercancías según su peso, volumen, fragilidad, dimensiones o nivel de riesgo, favoreciendo un manejo seguro durante las operaciones logísticas.

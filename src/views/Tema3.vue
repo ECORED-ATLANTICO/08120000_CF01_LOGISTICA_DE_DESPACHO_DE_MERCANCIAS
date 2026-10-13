@@ -72,7 +72,7 @@
         #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 3.2 Técnicas de arrume
         
-        img(src="@/assets/curso/tema3/6.png", alt="Imagen decorativa")
+        img(src="@/assets/curso/tema3/6.png", alt="")
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-10(data-aos="fade-up")
@@ -84,7 +84,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   figure
-                    img(src='@/assets/curso/tema3/7.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema3/7.svg', alt='')
               h3.mb-4.text-center.bg-color-11.p-1 Arrume horizontal
               p.text-center Se colocan las cargas en una sola capa o en niveles bajos.
           .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-down")
@@ -92,7 +92,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   figure
-                    img(src='@/assets/curso/tema3/8.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema3/8.svg', alt='')
               h3.mb-4.text-center.bg-color-12.p-1 Arrume vertical
               p.text-center Se apilan las cargas una sobre otra para aprovechar la altura.
           .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-up")
@@ -100,7 +100,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   figure
-                    img(src='@/assets/curso/tema3/9.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema3/9.svg', alt='')
               h3.mb-4.text-center.bg-color-11.p-1 Arrume cruzado
               p.text-center Se alterna la orientación de cada nivel para lograr una mayor estabilidad.
           .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-down")
@@ -108,7 +108,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   figure
-                    img(src='@/assets/curso/tema3/10.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema3/10.svg', alt='')
               h3.mb-4.text-center.bg-color-12.p-1 Arrume en bloque
               p.text-center Se agrupan cargas homogéneas formando bloques compactos.
           .col-sm-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-up")
@@ -116,7 +116,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   figure
-                    img(src='@/assets/curso/tema3/11.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema3/11.svg', alt='')
               h3.mb-4.text-center.bg-color-11.p-1 Arrume sobre estibas
               p.text-center Se coloca la carga sobre estibas para facilitar su manipulación, almacenamiento y transporte.
     
